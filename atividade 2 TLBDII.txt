@@ -1,0 +1,17 @@
+Favor respitar o prazo: 28/02/2019
+1 - Crie o banco loja.
+2 - Neste banco crie a seguinte tabela:
+CREATE TABLE `produto` (
+`idProduto` smallint(6) NOT NULL AUTO_INCREMENT,
+`produto` varchar(30) DEFAULT NULL,
+`quantidade` int(11) DEFAULT NULL,
+`valor` double DEFAULT NULL,
+PRIMARY KEY (`idProduto`)
+)
+3 - Cadastre 7 produtos diferentes.
+4 - Faça as seguintes consultas:
+A - Listar todos os produtos em ordem alfabética.
+B - Listar os produtos que possuem quantidade maior que 10.
+C - Listar os produtos com quantidade entre 5 e 8 itens.
+D - Listar os produtos que tenham valor menor que R$ 100,00.
+E - Liste os produtos, sua quantidade, valor e o total em R$ deste estoque (valor X quantidade)

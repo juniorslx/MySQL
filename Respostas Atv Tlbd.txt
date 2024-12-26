@@ -1,0 +1,65 @@
+3 – Cadastre 2 empresas na tabela empresa. 
+
+insert into empresa (empresa,telefone) values ("JBS-Alimentos","(12)3144-1207");
+
+insert into empresa (empresa,telefone) values ("Seara","3954-0002");
+
+select*from empresa;
+
+4 – Cadastre 8 vagas na tabela vaga. 
+
+insert into vaga (vaga,descrição,salario,idempresa) values ("Analista de Sistema","Desenvolver atividades de programação de computadores.",3000,1);
+
+insert into vaga (vaga,descrição,salario,idempresa) values ("Operador de Maquina","Realizar operações de carga e descarga.",2500,1);
+
+insert into vaga (vaga,descrição,salario,idempresa) values ("Especialização em RH","Realizar contratações.",2000,1);
+
+insert into vaga (vaga,descrição,salario,idempresa) values ("Segurança","Desenvolver atividades de vigia.",1200,2);
+
+insert into vaga (vaga,descrição,salario,idempresa) values ("Soldador","Realizar manutenção de tubulações.",2000,2);
+
+insert into vaga (vaga,descrição,salario,idempresa) values ("faxineiro","Atividades de Limpeza.",1600,2);
+
+insert into vaga (vaga,descrição,salario,idempresa) values ("Cozinheira","Preparar alimentos.",1250,2);
+
+insert into vaga (vaga,descrição,salario,idempresa) values ("Açogueiro","Especialista em cortes finos.",3000,1);
+
+Select * from vaga;
+
+5 – Faça as seguintes consultas: 
+
+A – Exiba as empresas em ordem alfabética. 
+
+Select * from empresa order by empresa;
+
+B – Liste as vagas em ordem decrescente. 
+
+Select vaga from vaga order by vaga desc;
+
+C – Liste as vagas que possuem salário acima de R$ 1000,00. 
+
+Select vaga from vaga where salario>1000;Select vaga from vaga where salario>1000;
+
+D – Liste apenas as vagas da primeira empresa. 
+
+Select vaga from vaga where idempresa=1;
+
+E – Exiba uma lista com todas as vagas, e além do id da empresa, mostre o nome desta empresa também. 
+
+Select A.*,B.empresa from vaga A,empresa B where A.idempresa=B.idempresa;
+
+
+6 – Altere o telefone da primeira empresa para “(12)3144-1207”. 
+
+update empresa set telefone = "(12)3144-1207" where idempresa=1;
+
+
+7 – Altere o salario da vaga 3 para R$ 2000,00. 
+
+update vaga set salario = 2000 where idvaga=3;
+
+
+8 – Remova as vagas que tenham salário inferior a R$ 1500,00.
+
+
+
