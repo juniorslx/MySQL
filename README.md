@@ -1,7 +1,3 @@
-# Projetos MySQL
-
-Bem-vindo ao repositório **MySQL**! Este repositório contém uma coleção de scripts e projetos desenvolvidos para práticas e estudos relacionados ao MySQL.
-
 ## Índice
 
 - [Descrição](#descrição)
