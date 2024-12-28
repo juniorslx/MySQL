@@ -1,6 +1,6 @@
-# MySQL Projects
+# Projetos MySQL
 
-Bem-vindo ao repositório **MySQL Projects**! Este repositório contém uma coleção de scripts e projetos desenvolvidos para práticas e estudos relacionados ao MySQL.
+Bem-vindo ao repositório **Projetos MySQL**! Este repositório contém uma coleção de scripts e projetos desenvolvidos para práticas e estudos relacionados ao MySQL.
 
 ## Índice
 
